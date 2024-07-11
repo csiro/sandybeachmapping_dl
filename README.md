@@ -4,7 +4,7 @@ Mapping Australian sandy beaches using image segmentation deep learning method b
 
 ## Installation
 ```
-git clone https://bitbucket.csiro.au/users/yon012/repos/sandybeachmapping_dl/browse
+git clone https://bitbucket.csiro.au/scm/ai-toolbox_sukyee/sandybeachmapping_dl.git
 pip install -r requirements.txt
 ```
 
