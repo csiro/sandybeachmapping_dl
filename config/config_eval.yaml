@@ -1,0 +1,24 @@
+# Defaults
+defaults:
+  - config
+  - hydra_nolog
+  - _self_
+
+# Experiment
+hydra:
+  run:
+    dir: 'outputs/vic' # vic, nsw
+exp_name: 'vic'
+train: false
+
+# Directories and files
+data_dir: 'data/aerial_beach_images/vic'
+image_subdir: 'image' # In data_dir
+mask_subdir: null # In data_dir
+maskpred_subdir: 'maskpred_${exp_name}' # In log_dir
+model_path: 'outputs/vic/model.pth' # Load model path: optional, null
+
+# Test setup
+mask_thresh_distance: null # Threshold distance for polygon mask
+test_imageset: 'all' # Test set image with: 'mask', 'mask+nomask', 'all'
+profmask_path: '${data_dir}/mask/bing_vic_mask_6.tif' # File path of example mask file to get profile

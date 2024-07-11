@@ -1,0 +1,29 @@
+hydra:
+  run:
+    dir: ${log_dir}/${now:%Y%m%d}/${now:%H%M%S}_${exp_name}
+
+# Experiment
+exp_name: 'vic'
+log_dir: 'outputs'
+seed: 42
+
+# Directories and files
+data_dir: 'data/aerial_beach_images/vic'
+image_subdir: 'image' # In data_dir
+mask_subdir: 'mask' # In data_dir
+maskpred_subdir: 'maskpred_${exp_name}' # In log_dir
+fid_osmid_path: '${data_dir}/coast_overlapping_tiles_512_119cm_FID_2_osm_id_vic.csv' # FID-OSMID file path if train and 'mask' in test_imageset
+model_path: null # Load model path: optional, null
+
+# Train setup
+mask_thresh_distance: null # Threshold distance for polygon mask
+train: true
+frac_test: 0.2 # Fraction of valid/test set
+batch_size: 128
+num_workers: 0
+max_epochs: 500 # 3.2h/100epochs on Virga
+lr: 1.0e-4
+
+# Test setup
+test_imageset: 'all' # Test set image with: 'mask', 'mask+nomask', 'all'
+profmask_path: '${data_dir}/${mask_subdir}/bing_vic_mask_6.tif' # File path of example mask file to get profile
