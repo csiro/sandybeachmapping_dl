@@ -8,4 +8,5 @@ rasterio==1.3.*
 scikit-learn==1.4.*
 scipy==1.12.*
 segmentation-models-pytorch==0.3.3
-torch==2.2.*
+#torch==2.2.*
+torch>=2.6.0
