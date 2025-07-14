@@ -66,7 +66,7 @@ Dataset of [OpenStreetMap](https://www.openstreetmap.org/) (OSM) beaches is crea
 Open source packages used: [PyTorch](https://github.com/pytorch/pytorch), [SMP](https://github.com/qubvel/segmentation_models.pytorch), [terra](https://github.com/rspatial/terra)
 
 ## Citation
-If you find this repository useful, please cite the paper:
+If you find this repository useful, please cite the [paper](https://doi.org/10.3390/rs16183534):
 ```bibtex
 @article{yong2024sandybeachmappingdl,
   author = {Yong, Suk Yee and O'Grady, Julian and Gregory, Rebecca and Lynton, Dylan},
