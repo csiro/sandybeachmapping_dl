@@ -1,7 +1,7 @@
 # Mapping Sandy Beaches using Deep Learning
 
 <p align="center">
-  <img src="assets/graphicalabs.png" alt="Graphical Abstract" width="800">
+  <img src="assets/graphicalabs.jpg" alt="Graphical Abstract" width="800">
 </p>
 
 Mapping Australian sandy beaches using image segmentation deep learning method based on U-Net architecture.
