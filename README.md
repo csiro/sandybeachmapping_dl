@@ -1,10 +1,14 @@
 # Mapping Sandy Beaches using Deep Learning
 
+<p align="center">
+  <img src="assets/graphicalabs.png" alt="Graphical Abstract" width="800">
+</p>
+
 Mapping Australian sandy beaches using image segmentation deep learning method based on U-Net architecture.
 
 ## Installation
 ```
-git clone https://bitbucket.csiro.au/scm/ai-toolbox_sukyee/sandybeachmapping_dl.git
+git clone https://bitbucket.csiro.au/scm/~yon012/sandybeachmapping_dl.git
 pip install -r requirements.txt
 ```
 
@@ -61,5 +65,22 @@ This project is being developed as part of Scientific Computing Collaboration Pr
 Dataset of [OpenStreetMap](https://www.openstreetmap.org/) (OSM) beaches is created using overpass API.  
 Open source packages used: [PyTorch](https://github.com/pytorch/pytorch), [SMP](https://github.com/qubvel/segmentation_models.pytorch), [terra](https://github.com/rspatial/terra)
 
+## Citation
+If you find this repository useful, please cite the paper:
+```bibtex
+@article{yong2024sandybeachmappingdl,
+  author = {Yong, Suk Yee and O'Grady, Julian and Gregory, Rebecca and Lynton, Dylan},
+  doi = {10.3390/rs16183534},
+  issn = {2072-4292},
+  journal = {Remote Sensing},
+  number = {18},
+  title = {Regional-Scale Image Segmentation of Sandy Beaches in Southeastern Australia},
+  url = {https://www.mdpi.com/2072-4292/16/18/3534},
+  volume = {16},
+  article-number = {3534},
+  year = {2024},
+}
+```
+
 ## License
-[CSIRO Open Source Software Licence Agreement (variation of the BSD / MIT License)](LICENSE.txt)
+[CSIRO Open Source Software Licence Agreement (variation of the BSD / MIT License)](LICENSE.md)
