@@ -28,7 +28,7 @@ preferred-citation:
     given-names: "Dylan"
   doi: "10.3390/rs16183534"
   journal: "Remote Sensing"
-  article-number: 3534
+  number: 3534
   title: "Regional-Scale Image Segmentation of Sandy Beaches in Southeastern Australia"
   volume: 16
   year: 2024
