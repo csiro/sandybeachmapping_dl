@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Yong"
+  given-names: "Suk Yee"
+  orcid: "https://orcid.org/0000-0002-5204-2902"
+- family-names: "O'Grady"
+  given-names: "Julian"
+  orcid: "https://orcid.org/0000-0003-3552-9193"
+title: "SandyBeachMapping_DL"
+version: 0.0.1
+doi: 102.100.100/636534
+date-released: 2024-07-26
+url: "https://github.com/csiro/sandybeachmapping_dl"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Yong"
+    given-names: "Suk Yee"
+    orcid: "https://orcid.org/0000-0002-5204-2902"
+  - family-names: "O'Grady"
+    given-names: "Julian"
+    orcid: "https://orcid.org/0000-0003-3552-9193"
+  - family-names: "Gregory"
+    given-names: "Rebecca"
+    orcid: "https://orcid.org/0000-0003-0137-1578"
+  - family-names: "Lynton"
+    given-names: "Dylan"
+  doi: "10.3390/rs16183534"
+  journal: "Remote Sensing"
+  article-number: 3534
+  title: "Regional-Scale Image Segmentation of Sandy Beaches in Southeastern Australia"
+  volume: 16
+  year: 2024
